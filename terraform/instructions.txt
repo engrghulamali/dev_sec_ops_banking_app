@@ -1,0 +1,21 @@
+terraform.tf     : (providers setup)
+
+main.tf/ec2.tf   : (ec2 instance detailed instructions for instance creation)
+
+ssh setup
+cd terraform
+ssh-keygen
+files: dev-sec-ops-banking-app-ssh-key & dev-sec-ops-banking-app-ssh-key.pub
+
+outputs.tf   : out put after ec2 creation
+
+scripts.sh   : user data info at the time of instance creation
+
+note: these all tf are basically a blocks
+
+
+terraform commands for instance
+terraform init      (providers etc installation)
+terraform plan      (validation about all files)
+terraform apply     (create ec2 instances etc all)
+terraform destroy   (to destroy all changes from a terraform)
