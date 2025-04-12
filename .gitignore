@@ -41,3 +41,4 @@ terraform.tfstate.backup
 *.tfstate
 terraform-provider-aws
 dev-sec-ops-banking-app-ssh-key.pub
+dev-sec-ops-banking-app-ssh-key
