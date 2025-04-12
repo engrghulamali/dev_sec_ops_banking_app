@@ -1,0 +1,21 @@
+ec2 creation using terraform (terraform folder)
+
+
+Dockerfile
+
+just for knowldge docker commands
+Remove all containers
+docker rm -f $(docker ps -aq)
+
+Remove all images
+docker rmi -f $(docker images -aq)
+
+
+Remove all volumes
+docker volume rm $(docker volume ls -q)
+
+or have to remove all things from docker
+docker system prune -a --volumes -f
+
+this project docker commands
+docker build -t bankapp:latest .
